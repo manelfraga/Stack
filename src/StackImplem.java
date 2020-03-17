@@ -1,6 +1,6 @@
 class StackImpl<T> implements Stack<T> {
     private int limit;
-    private int p;
+    private int  p;
     private T[] data;
     public StackImpl(int num)
     {
